@@ -30,9 +30,25 @@
         System.Console.WriteLine(a);
         //Increment /Decrement Operators
         a = 10M;
+        System.Console.WriteLine();
         System.Console.WriteLine(++a);
         System.Console.WriteLine(a++);
-        System.Console.WriteLine(a);    
+        System.Console.WriteLine(a);
+
+        System.Console.WriteLine(--a);
+        System.Console.WriteLine(a--);
+        System.Console.WriteLine(a);
+
+        //Comparison Operators
+        //System.Console.WriteLine();
+        //System.Console.WriteLine();
+        //bool b1 = a == 10;
+        //System.Console.WriteLine(b1);
+        bool b2 = a != 10;
+        System.Console.WriteLine(b2);
+
+
+
 
         System.Console.ReadKey();
     }
