@@ -32,8 +32,22 @@
         a = 10M;
         System.Console.WriteLine(++a);
         System.Console.WriteLine(a++);
-        System.Console.WriteLine(a);    
+        System.Console.WriteLine(a);
 
+        //Concatenation Operator
+        string name = "Scott";
+        int age = 10;
+        string message = "Hey, " + name + ", your age is " + age;
+        System.Console.WriteLine(message);
+
+
+        //ternary operator
+        string title = (age < 13) ? "Child" : (age >= 13 && age <= 19) ? "Teenager" : "Adult";
+        System.Console.WriteLine(title);
+
+        //operator precedence
+        double z = 10 + 4 * 30 / 10;
+        System.Console.WriteLine(z);
         System.Console.ReadKey();
     }
 }
