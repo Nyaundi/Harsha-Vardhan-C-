@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+//HEAD
 ﻿//class Sample
 //{
 //    static void Main()
@@ -53,58 +53,85 @@
 //    }
 //}
 
-class Program
+//class Program
+//{
+//    static void Main()
+//    {
+//        //variable to store greade letter of student
+//        char gradeLetter = 'B';
+
+//        //find out the description based on grade letter
+//        string gradeDescription;
+//        switch(gradeLetter)
+//        {
+//            case 'O':gradeDescription = "Outstanding";break;
+//            case 'A': gradeDescription = "Excellent"; break;
+//            case 'B': gradeDescription = "good"; break;
+//            case 'C': gradeDescription = "Average"; break;
+//            case 'F': gradeDescription = "Fail"; break;
+//            default:gradeDescription = "None";break;
+//        }
+//        System.Console.WriteLine(gradeDescription);
+//=======
+//﻿class Program
+//{
+//    static void Main()
+//    {
+//        int marks = 75; //declare the bvariable to store the marks of the students
+//        char gradeLetter;
+
+//        //>= 85 - 0
+//        //>= 60 && <85 A
+//        //>== 50 && < 60 B
+//        //>35 && < 50 C
+//        //else F
+
+//        if (marks >= 85)
+//        {
+//            gradeLetter = 'O';
+//        }
+//        else if (marks >=60 && marks <85)
+//        {
+//            gradeLetter = 'A';
+//        }
+//        else if (marks >= 50 && marks< 60)
+//        {
+//            gradeLetter = 'C';
+//        }
+//        else
+//        {
+//            gradeLetter = 'F';
+//        }
+
+//        System.Console.WriteLine(gradeLetter);
+//>>>>>>> c934fe0731b173e34d09648d3f0512e7a73e8353
+//        System.Console.ReadKey();
+//    }
+//}
+
+//do-while loop
+class program
 {
     static void Main()
     {
-        //variable to store greade letter of student
-        char gradeLetter = 'B';
+        //Initialization
+        int i = 1;
+        while(i<=10)
+        {
+            System.Console.Write(i+" ");
+            i++;
+        }
+        System.Console.WriteLine();
 
-        //find out the description based on grade letter
-        string gradeDescription;
-        switch(gradeLetter)
+        //0 -9
+        i = 0;
+        while (i < 10)
         {
-            case 'O':gradeDescription = "Outstanding";break;
-            case 'A': gradeDescription = "Excellent"; break;
-            case 'B': gradeDescription = "good"; break;
-            case 'C': gradeDescription = "Average"; break;
-            case 'F': gradeDescription = "Fail"; break;
-            default:gradeDescription = "None";break;
+            System.Console.Write(i + " ");
+            i++;
         }
-        System.Console.WriteLine(gradeDescription);
-=======
-﻿class Program
-{
-    static void Main()
-    {
-        int marks = 75; //declare the bvariable to store the marks of the students
-        char gradeLetter;
-
-        //>= 85 - 0
-        //>= 60 && <85 A
-        //>== 50 && < 60 B
-        //>35 && < 50 C
-        //else F
-
-        if (marks >= 85)
-        {
-            gradeLetter = 'O';
-        }
-        else if (marks >=60 && marks <85)
-        {
-            gradeLetter = 'A';
-        }
-        else if (marks >= 50 && marks< 60)
-        {
-            gradeLetter = 'C';
-        }
-        else
-        {
-            gradeLetter = 'F';
-        }
-
-        System.Console.WriteLine(gradeLetter);
->>>>>>> c934fe0731b173e34d09648d3f0512e7a73e8353
         System.Console.ReadKey();
+
     }
+
 }
