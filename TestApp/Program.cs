@@ -116,20 +116,38 @@ class program
     {
         //Initialization
         int i = 1;
-        while(i<=10)
+        do
         {
-            System.Console.Write(i+" ");
+            System.Console.Write(i + " ");
             i++;
-        }
+        } while (i <= 10);
         System.Console.WriteLine();
 
         //0 -9
         i = 0;
-        while (i < 10)
+        do
         {
             System.Console.Write(i + " ");
             i++;
+        } while (i < 10);
+        System.Console.WriteLine();
+        //9 - 0
+        i = 8;
+        do
+        {
+            System.Console.Write(i + " ");
+            i--;
+        } while (i >= 0);
+        System.Console.WriteLine();
+
+        //10 - 1
+        i = 10;
+        while(i>= 1)
+        {
+            System.Console.Write(i + " ");
+            i--;
         }
+
         System.Console.ReadKey();
 
     }
