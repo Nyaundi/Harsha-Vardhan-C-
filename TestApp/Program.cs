@@ -1,5 +1,4 @@
-//HEAD
-﻿//class Sample
+//class Sample
 //{
 //    static void Main()
 //    {
@@ -10,7 +9,7 @@
 //        decimal d = a - b;
 //        decimal e = a * b;
 //        decimal f = a / b;
-//        decimal g = a % b;
+//        //decimal g = a % b;
 //        System.Console.WriteLine(c);    
 //        System.Console.WriteLine(d);    
 //        System.Console.WriteLine(e);
@@ -53,118 +52,15 @@
 //    }
 //}
 
+//For loop
 //class Program
 //{
 //    static void Main()
 //    {
-//        //variable to store greade letter of student
-//        char gradeLetter = 'B';
-
-//        //find out the description based on grade letter
-//        string gradeDescription;
-//        switch(gradeLetter)
+//        for(int i = 0; i <= 10; i++)
 //        {
-//            case 'O':gradeDescription = "Outstanding";break;
-//            case 'A': gradeDescription = "Excellent"; break;
-//            case 'B': gradeDescription = "good"; break;
-//            case 'C': gradeDescription = "Average"; break;
-//            case 'F': gradeDescription = "Fail"; break;
-//            default:gradeDescription = "None";break;
+//            System.Console.WriteLine(i);
 //        }
-//        System.Console.WriteLine(gradeDescription);
-//=======
-//﻿class Program
-//{
-//    static void Main()
-//    {
-//        int marks = 75; //declare the bvariable to store the marks of the students
-//        char gradeLetter;
-
-//        //>= 85 - 0
-//        //>= 60 && <85 A
-//        //>== 50 && < 60 B
-//        //>35 && < 50 C
-//        //else F
-
-//        if (marks >= 85)
-//        {
-//            gradeLetter = 'O';
-//        }
-//        else if (marks >=60 && marks <85)
-//        {
-//            gradeLetter = 'A';
-//        }
-//        else if (marks >= 50 && marks< 60)
-//        {
-//            gradeLetter = 'C';
-//        }
-//        else
-//        {
-//            gradeLetter = 'F';
-//        }
-
-//        System.Console.WriteLine(gradeLetter);
-//>>>>>>> c934fe0731b173e34d09648d3f0512e7a73e8353
-//        System.Console.ReadKey();
+//    System.Console.ReadKey();
 //    }
 //}
-
-//do-while loop
-//class program
-//{
-//    static void Main()
-//    {
-//        //Initialization
-//        int i = 1;
-//        do
-//        {
-//            System.Console.Write(i + " ");
-//            i++;
-//        } while (i <= 10);
-//        System.Console.WriteLine();
-
-//        //0 -9
-//        i = 0;
-//        do
-//        {
-//            System.Console.Write(i + " ");
-//            i++;
-//        } while (i < 10);
-//        System.Console.WriteLine();
-//        //9 - 0
-//        i = 8;
-//        do
-//        {
-//            System.Console.Write(i + " ");
-//            i--;
-//        } while (i >= 0);
-//        System.Console.WriteLine();
-
-//        //10 - 1
-//        i = 10;
-//        while(i>= 1)
-//        {
-//            System.Console.Write(i + " ");
-//            i--;
-//        }
-
-//        System.Console.ReadKey();
-
-//    }
-
-//}
-
-//For loop
-class Program
-{
-    static void Main()
-    {
-        //for loop with initialization, condition and incrementation
-        for(int i = 1; i <= 10; i++)
-        {
-            System.Console.Write(i + " ");
-        }
-        System.Console.ReadKey();
-    }
-
-}
